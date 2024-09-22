@@ -27,7 +27,7 @@ export default function Footer() {
       <div className="container mx-auto flex flex-row items-center justify-between py-6">
         <span className="flex flex-row items-center space-x-4">
           <p className="text-xs text-muted-foreground">
-            Made with ❤️ by{" "}
+            {/* Made with ❤️ by{" "}
             <Link
               href="https://github.com/wendoj"
               target="_blank"
@@ -35,7 +35,7 @@ export default function Footer() {
               className="text-foreground transition hover:text-primary"
             >
               Satyam
-            </Link>
+            </Link> */}
           </p>
           <hr className="hidden h-6 border-l border-muted md:flex" />
           <span className="flex hidden flex-row items-center space-x-2 md:flex">

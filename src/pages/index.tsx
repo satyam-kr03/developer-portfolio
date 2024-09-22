@@ -227,7 +227,7 @@ export default function Home() {
               data-scroll-speed=".06"
               className="flex flex-row items-center space-x-1.5 pt-6"
             >
-              <Link href="mailto:wendoj@proton.me" passHref>
+              <Link href="mailto:b22236@students.iitmandi.ac.in" passHref>
                 <Button>
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
@@ -272,13 +272,13 @@ export default function Home() {
           >
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
               I&apos;m a pre-final year CS undergrad proficient in{" "}
-              <Link
+              {/* <Link
                 href="https://create.t3.gg/"
                 target="_blank"
                 className="underline"
-              >
-                Python, C++, JavaScript and Flutter
-              </Link>
+              > */}
+              Python, C++, JavaScript and Flutter
+              {/* </Link> */}
               . As a student at my home university, IIT Mandi, I&apos;ve been
               involved in several projects of software development and deep
               learning.
@@ -451,7 +451,7 @@ export default function Home() {
               I&apos;m currently available for freelance work and open to
               discussing new projects.
             </p>
-            <Link href="mailto:wendoj@proton.me" passHref>
+            <Link href="b22236@students.iitmandi.ac.in" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
