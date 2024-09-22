@@ -34,7 +34,7 @@ export default function Footer() {
               passHref
               className="text-foreground transition hover:text-primary"
             >
-              wendoj
+              Satyam
             </Link>
           </p>
           <hr className="hidden h-6 border-l border-muted md:flex" />
@@ -44,13 +44,15 @@ export default function Footer() {
           </span>
         </span>
         <Link
-          href="mailto:wendoj@proton.me"
+          href="mailto:b22236@students.iitmandi.ac.in"
           passHref
           className="text-xs text-muted-foreground hover:text-foreground"
         >
           <Button variant={"outline"}>
             <MailIcon className="h-4 w-4 md:mr-2" />
-            <span className="hidden md:flex">wendoj@proton.me</span>
+            <span className="hidden md:flex">
+              b22236@students.iitmandi.ac.in
+            </span>
           </Button>
         </Link>
       </div>

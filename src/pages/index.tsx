@@ -190,9 +190,11 @@ export default function Home() {
               data-scroll-speed=".09"
               className="flex flex-row items-center space-x-1.5"
             >
-              <span className={styles.pill}>next.js</span>
-              <span className={styles.pill}>tailwindcss</span>
-              <span className={styles.pill}>typescript</span>
+              <span className={styles.pill}>Python</span>
+              <span className={styles.pill}>C++</span>
+              <span className={styles.pill}>JavaScript</span>
+              <span className={styles.pill}>Flutter</span>
+              <span className={styles.pill}>SQL</span>
             </div>
             <div>
               <h1
@@ -206,7 +208,7 @@ export default function Home() {
                   <br />
                 </span>
                 <span className="clash-grotesk text-gradient text-6xl 2xl:text-8xl">
-                  WendoJ.
+                  Satyam Kumar.
                 </span>
               </h1>
               <p
@@ -215,8 +217,8 @@ export default function Home() {
                 data-scroll-speed=".06"
                 className="mt-1 max-w-lg tracking-tight text-muted-foreground 2xl:text-xl"
               >
-                An experienced full-stack website developer with a passion for
-                crafting unique digital experiences.
+                An enthusiastic computer science student with a passion for
+                crafting solutions using modern technology.
               </p>
             </div>
             <span
@@ -269,21 +271,24 @@ export default function Home() {
             className="my-14 flex max-w-6xl flex-col justify-start space-y-10"
           >
             <h2 className="py-16  pb-2 text-3xl font-light leading-normal tracking-tighter text-foreground xl:text-[40px]">
-              I&apos;m an experienced full-stack developer proficient in{" "}
+              I&apos;m a pre-final year CS undergrad proficient in{" "}
               <Link
                 href="https://create.t3.gg/"
                 target="_blank"
                 className="underline"
               >
-                TypeScript, Tailwind, and Next.js
-              </Link>{" "}
-              since 2021. My experience spans from startups to mid-sized
-              companies, where I&apos;ve been instrumental in the entire product
-              design process; from ideation and wireframing, through
-              prototyping, to the delivery of the final product, all while
-              efficiently collaborating with cross-functional teams.
+                Python, C++, JavaScript and Flutter
+              </Link>
+              . As a student at my home university, IIT Mandi, I&apos;ve been
+              involved in several projects of software development and deep
+              learning.
+              <br /> <br />
+              Currently, I am enrolled at the Technical University of Munich
+              (TUM) for the Winter Semester 2024/25 as an Exchange Student in
+              Informatics. <br /> <br />I shall be joining Google as a Software
+              Engineering Intern for the Summer of 2025.
             </h2>
-            <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
+            {/* <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
                 <div
                   key={stat.label}
@@ -297,7 +302,7 @@ export default function Home() {
                   </span>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </section>
 
