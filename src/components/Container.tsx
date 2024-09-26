@@ -82,7 +82,7 @@ export default function Container(props: ContainerProps) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Satyam Kumar",
+    title: "Portfolio: Satyam",
     description: `Computer Science Undergrad.`,
     image: "/assets/logo.webp",
     type: "website",
