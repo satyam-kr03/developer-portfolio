@@ -234,6 +234,15 @@ export default function Home() {
                   Get in touch <ChevronRight className="ml-1 h-4 w-4" />
                 </Button>
               </Link>
+              <Link
+                href="https://drive.google.com/file/d/1h9NEiZZR4wfHNPrKLbCQdJwgwZPi6YcI/view?usp=drive_link"
+                passHref
+                legacyBehavior
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  <Button>View CV</Button>
+                </a>
+              </Link>
               <Button
                 variant="outline"
                 onClick={() => scrollTo(document.querySelector("#about"))}
