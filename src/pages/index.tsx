@@ -2,6 +2,7 @@ import Container from "@/components/Container";
 import { useEffect, useRef, Suspense, useState } from "react";
 import styles from "@/styles/Home.module.css";
 import { Button } from "@/components/ui/button";
+import GoogleLogo from "@/components/ui/logo";
 import {
   ChevronRight,
   Code2,
@@ -286,8 +287,8 @@ export default function Home() {
               <br /> <br />
               Currently, I am enrolled at the Technical University of Munich
               (TUM) for the Winter Semester 2024/25 as an Exchange Student in
-              Informatics. <br /> <br />I shall be joining Google as a Software
-              Engineering Intern for the Summer of 2025.
+              Informatics. <br /> <br />I shall be joining <GoogleLogo /> as a
+              Software Engineering Intern for the Summer of 2025.
             </h2>
             {/* <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
@@ -329,11 +330,11 @@ export default function Home() {
               ✨ Projects
             </span>
             <h2 className="mt-3 text-4xl font-semibold tracking-tight tracking-tighter xl:text-6xl">
-              Streamlined digital experiences.
+              Major Projects.
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;ve worked on a variety of projects, from small websites to
-              large-scale web applications. Here are some of my favorites:
+              I&apos;ve worked on a variety of projects involving deep learning,
+              web development and app development:
             </p>
 
             {/* Carousel */}
@@ -388,7 +389,7 @@ export default function Home() {
         </section>
 
         {/* Services */}
-        <section id="services" data-scroll-section>
+        {/* <section id="services" data-scroll-section>
           <div
             data-scroll
             data-scroll-speed=".4"
@@ -434,7 +435,7 @@ export default function Home() {
               ))}
             </motion.div>
           </div>
-        </section>
+        </section> */}
 
         {/* Contact */}
         <section id="contact" data-scroll-section className="my-64">
@@ -449,8 +450,8 @@ export default function Home() {
               <span className="text-gradient clash-grotesk">together.</span>
             </h2>
             <p className="mt-1.5 text-base tracking-tight text-muted-foreground xl:text-lg">
-              I&apos;m currently available for freelance work and open to
-              discussing new projects.
+              I&apos;m actively seeking opportunities as a working student in
+              Munich.
             </p>
             <Link href="b22236@students.iitmandi.ac.in" passHref>
               <Button className="mt-6">Get in touch</Button>
