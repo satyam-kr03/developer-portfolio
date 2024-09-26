@@ -290,9 +290,8 @@ export default function Home() {
               > */}
               Python, C++, JavaScript and Flutter
               {/* </Link> */}
-              . As a student at my home university, IIT Mandi, I&apos;ve been
-              involved in several projects of software development and deep
-              learning.
+              . My interests lie in Theoretical CS, Software Development and
+              Deep Learning.
               <br /> <br />
               Currently, I am enrolled at the Technical University of Munich
               (TUM) for the Winter Semester 2024/25 as an Exchange Student in
