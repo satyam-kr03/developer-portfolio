@@ -462,7 +462,7 @@ export default function Home() {
               I&apos;m actively seeking opportunities as a working student in
               Munich.
             </p>
-            <Link href="b22236@students.iitmandi.ac.in" passHref>
+            <Link href="mailto:b22236@students.iitmandi.ac.in" passHref>
               <Button className="mt-6">Get in touch</Button>
             </Link>
           </div>
