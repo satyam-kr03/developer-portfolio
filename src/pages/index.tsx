@@ -3,6 +3,8 @@ import { useEffect, useRef, Suspense, useState } from "react";
 import styles from "@/styles/Home.module.css";
 import { Button } from "@/components/ui/button";
 import GoogleLogo from "@/components/ui/logo";
+import TUMLogo from "@/components/ui/tum_logo";
+
 import {
   ChevronRight,
   Code2,
@@ -293,10 +295,10 @@ export default function Home() {
               . My interests lie in Theoretical CS, Software Development and
               Deep Learning.
               <br /> <br />
-              Currently, I am enrolled at the Technical University of Munich
-              (TUM) for the Winter Semester 2024/25 as an Exchange Student in
-              Informatics. <br /> <br />I shall be joining <GoogleLogo /> as a
-              Software Engineering Intern for the Summer of 2025.
+              Currently, I am enrolled at the
+              <TUMLogo /> for the Winter Semester 2024/25 as an Exchange Student
+              in Informatics. <br /> <br />I shall be joining <GoogleLogo /> as
+              a Software Engineering Intern for the Summer of 2025.
             </h2>
             {/* <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
