@@ -195,6 +195,7 @@ export default function Home() {
               <span className={styles.pill}>JavaScript</span>
               <span className={styles.pill}>Flutter</span>
               <span className={styles.pill}>SQL</span>
+              <span className={styles.pill}>Linux</span>
             </div>
             <div>
               <h1
