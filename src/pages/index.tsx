@@ -298,7 +298,7 @@ export default function Home() {
               Currently, I am enrolled at the
               <TUMLogo /> for the Winter Semester 2024/25 as an Exchange Student
               in Informatics. <br /> <br />I shall be joining <GoogleLogo /> as
-              a Software Engineering Intern for the Summer of 2025.
+              a Software Engineering Intern in the Summer of 2025.
             </h2>
             {/* <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
