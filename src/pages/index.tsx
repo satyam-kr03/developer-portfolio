@@ -38,34 +38,24 @@ const aboutStats = [
 
 const projects = [
   {
-    title: "Unqueue",
-    description: "E-commerce platform for selling digital products",
-    image: "/assets/unqueue.webm",
+    title: "Health.AI",
+    description:
+      "Personal healthcare assistant capable of handling complex medical queries",
+    image: "/assets/ss1.png",
     href: "https://unqueue.shop/",
   },
   {
-    title: "InfiniteVPS",
-    description: "High performance VPS hosting solution",
-    image: "/assets/infinitevps.webm",
+    title: "VizAssist",
+    description: "Image Captioning App tailored for the visually impaired",
+    image: "/assets/ss2.png",
     href: "#",
   },
   {
-    title: "TranslateBot",
-    description: "Powerful Multilingual Translation Bot for Discord",
-    image: "/assets/translate_bot.webm",
+    title: "Cinematic Visualization on Opencascade",
+    description:
+      "Library for creating and visualizing 3D parts using the OpenCASCADE geometric kernel",
+    image: "/assets/ss3.png",
     href: "https://translatebot.app/",
-  },
-  {
-    title: "Wrona",
-    description: "Robotics-focused technology company",
-    image: "/assets/wrona.jpeg",
-    href: "https://www.wrona.com/",
-  },
-  {
-    title: "This website",
-    description: "My personal website",
-    image: "/assets/portfolio.webm",
-    href: "https://github.com/wendoj/portfolio",
   },
 ];
 
