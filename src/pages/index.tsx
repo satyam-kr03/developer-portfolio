@@ -42,20 +42,20 @@ const projects = [
     description:
       "Personal healthcare assistant capable of handling complex medical queries",
     image: "/assets/ss1.png",
-    href: "https://unqueue.shop/",
+    href: "https://github.com/DhruvSinghiitmandi/Health.ai",
   },
   {
     title: "VizAssist",
     description: "Image Captioning App tailored for the visually impaired",
     image: "/assets/ss2.png",
-    href: "#",
+    href: "https://github.com/vivek005001/viz_assist",
   },
   {
     title: "Cinematic Visualization on Opencascade",
     description:
       "Library for creating and visualizing 3D parts using the OpenCASCADE geometric kernel",
     image: "/assets/ss3.png",
-    href: "https://translatebot.app/",
+    href: "https://github.com/satyam-kr03/DesignPracticum",
   },
 ];
 
