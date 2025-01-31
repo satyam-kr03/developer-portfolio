@@ -40,14 +40,14 @@ const projects = [
   {
     title: "Multilingual Hallucination Detection",
     description: "Project for SemEval 2025 Task-3",
-    image: "/assets/ss3.png",
-    // href: "https://github.com/satyam-kr03/DesignPracticum",
+    image: "/assets/mushroom.png",
+    href: "https://github.com/satyam-kr03/DesignPracticum",
   },
   {
     title: "Generator-Enhanced Optimization",
     description:
       "Solving the portfolio optimization problem using generative models",
-    image: "/assets/ss3.png",
+    image: "/assets/geo.png",
     href: "https://github.com/satyam-kr03/GEO",
   },
   {
@@ -295,8 +295,8 @@ export default function Home() {
               > */}
               Python, C++, JavaScript and Flutter
               {/* </Link> */}
-              . My interests lie in Theoretical CS, Software Development and
-              Deep Learning.
+              . My interests lie in Deep Learning, Big Data, HPC and Mobile App
+              Development.
               <br /> <br />
               Currently, I am enrolled at the
               <TUMLogo /> for the Winter Semester 2024/25 as an Exchange Student
