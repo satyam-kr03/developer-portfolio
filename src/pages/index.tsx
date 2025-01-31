@@ -38,17 +38,30 @@ const aboutStats = [
 
 const projects = [
   {
-    title: "Health.AI",
+    title: "Multilingual Hallucination Detection",
+    description: "Project for SemEval 2025 Task-3",
+    image: "/assets/ss3.png",
+    // href: "https://github.com/satyam-kr03/DesignPracticum",
+  },
+  {
+    title: "Generator-Enhanced Optimization",
+    description:
+      "Solving the portfolio optimization problem using generative models",
+    image: "/assets/ss3.png",
+    href: "https://github.com/satyam-kr03/GEO",
+  },
+  {
+    title: "MedIntel",
     description:
       "Personal healthcare assistant capable of handling complex medical queries",
     image: "/assets/ss1.png",
-    href: "https://github.com/DhruvSinghiitmandi/Health.ai",
+    href: "https://github.com/satyam-kr03/MedIntel",
   },
   {
     title: "VizAssist",
     description: "Image Captioning App tailored for the visually impaired",
     image: "/assets/ss2.png",
-    href: "https://github.com/vivek005001/viz_assist",
+    href: "https://github.com/satyam-kr03/VizAssist",
   },
   {
     title: "Cinematic Visualization on Opencascade",
