@@ -41,7 +41,7 @@ const projects = [
     title: "Multilingual Hallucination Detection",
     description: "Project for SemEval 2025 Task-3",
     image: "/assets/mushroom.png",
-    href: "https://github.com/satyam-kr03/DesignPracticum",
+    href: "https://github.com/satyam-kr03/Mu-Shroom",
   },
   {
     title: "Generator-Enhanced Optimization",
@@ -300,8 +300,13 @@ export default function Home() {
               <br /> <br />
               Currently, I am enrolled at the
               <TUMLogo /> for the Winter Semester 2024/25 as an Exchange Student
-              in Informatics. <br /> <br />I shall be joining <GoogleLogo /> as
-              a Software Engineering Intern in the Summer of 2025.
+              in Informatics.
+              <br /> <br />I am working as a Student Research Assistant at the
+              Professorship of Digital Marketing at the TUM School of
+              Management. I am also working in the Software Team at the Gear
+              Research Center (FZG) at TUM.
+              <br /> <br />I shall be joining <GoogleLogo /> as a Software
+              Engineering Intern in the Summer of 2025.
             </h2>
             {/* <div className="grid grid-cols-2 gap-8 xl:grid-cols-3">
               {aboutStats.map((stat) => (
